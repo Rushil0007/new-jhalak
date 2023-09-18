@@ -10,9 +10,9 @@ const Hero = () => {
         </p>
       </div>
       <div className=" flex justify-center items-center">
-        <button type="submit" className="submit-button" disabled>
+        {/* <button type="submit" className="submit-button" disabled>
           Find Your House
-        </button>
+        </button> */}
       </div>
     </>
   );

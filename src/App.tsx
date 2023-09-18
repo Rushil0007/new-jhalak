@@ -1,21 +1,25 @@
-// App.tsx
 import React, { useState } from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import StudentForm from "./components/Form";
-import CongratulatoryTile from "./components/CongratulatoryTile"; // Import CongratulatoryTile
-
-import "./MainApp.css";
+import CongratulatoryTile from "./components/CongratulatoryTile"; // Import the CongratulatoryTile component
 
 function App() {
-  const [houseName, setHouseName] = useState<string>("");
+  // You can manage the houseName state here and pass it to the CongratulatoryTile component
+  const [houseName, setHouseName] = useState<string | undefined>(undefined);
+
+  // Callback to set the houseName when needed
+  const handleShowCongratulatoryTile = (name: string) => {
+    setHouseName(name);
+  };
 
   return (
-    <div className="main-div">
+    <div className="App">
       <Navbar />
       <Hero />
       <div>
-        <StudentForm setHouseName={setHouseName} />
+        <StudentForm houseName={houseName} />
+        {/* CongratulatoryTile component */}
         {houseName && <CongratulatoryTile houseName={houseName} />}
       </div>
     </div>
