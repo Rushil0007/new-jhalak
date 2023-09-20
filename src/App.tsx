@@ -3,6 +3,10 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import StudentForm from "./components/Form";
 import CongratulatoryTile from "./components/CongratulatoryTile"; // Import the CongratulatoryTile component
+// import "./App.css";
+// import "./src/fonts/Amador-W01-Regular.ttf";
+
+
 
 function App() {
   // You can manage the houseName state here and pass it to the CongratulatoryTile component
@@ -17,6 +21,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Hero />
+      {/* <Img /> */}
       <div>
         <StudentForm houseName={houseName} />
         {/* CongratulatoryTile component */}

@@ -1,11 +1,23 @@
 /* App.css */
+
+.Heading{
+  display: flex;
+  margin: 2px 2px;
+}
+.Heading .Header-top{
+  justify-content: center;
+  align-items: center;
+  color: #000;
+}
+
+
 .form {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 60vh;
   margin: 0;
-  background-color: black;
+  background-color: #D9D9D9;
 }
 
 .form-container {
@@ -122,3 +134,65 @@
 }
 
 /* Other existing styles remain the same */
+
+
+#services{
+  margin: 12px;
+  display: flex;
+  background-color: #D9D9D9;
+}
+#services .box{
+  border: 2px solid #0c0b0b;
+  padding: 14px;
+  margin: 6px 6px;
+  border-radius: 16px;
+  background-color:  #555555;;
+  color: white;
+  cursor: pointer;
+  height: 20rem;
+    width: 58rem;
+  
+}
+
+/* #services .box:hover{
+  color:white;
+  background-color: rgb(230, 12, 12);
+} */
+#services .box1{
+  border: 2px solid #0c0b0b;
+  padding: 14px;
+  margin: 6px 6px;
+  border-radius: 16px;
+  background-color: #555555;;
+  color: white;
+  cursor: pointer;
+  height: 20rem;
+  width: 58rem;
+}
+#services .box2{
+  border: 2px solid #0c0b0b;
+  padding: 14px;
+  margin: 6px 6px;
+  border-radius: 16px;
+  background-color: #555555;
+  color: white;
+  cursor: pointer;
+  height: 20rem;
+  width: 58rem;
+}
+/* #services .box2:hover{
+  color:white;
+  background-color: rgb(230, 12, 12);
+} */
+
+#services .box3{
+  border: 2px solid #0c0b0b;
+  padding: 14px;
+  margin: 6px 6px;
+  border-radius: 16px;
+  background-color:#555555;
+  color: white;
+  cursor: pointer;
+  height: 20rem;
+  width: 58rem;
+}

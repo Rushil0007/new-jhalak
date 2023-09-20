@@ -1,4 +1,73 @@
+
 .submit-button {
   margin-top: 10%;
   margin-bottom: 10%;
 }
+/* Hero Container */
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  height: 52rem; /* Equivalent to h-96 */
+  background-color: #D9D9D9; /* Equivalent to bg-slate-400 */
+}
+
+/* Hero Image */
+.hero-image {
+  display: flex;
+  /* border: 2px solid #d69e2e; */
+   /* Equivalent to border-2 and border-yellow-300 */
+  align-items: center;
+  width: 33.33%; /* Equivalent to w-4/12 */
+}
+
+.hero-text{
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  font-weight: 800;
+  font-size: 8rem;
+  font-family:'Amador';
+  
+}
+.hero-h2{
+  display: flex;
+  font-size: 2rem;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  color: rgb(117, 177, 170);
+}
+/* Hero Button Container (Optional) */
+.hero-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Submit Button (Uncomment if needed) */
+/*.submit-button {
+  // Your button styles here
+  // Example:
+  background-color: #3182ce;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: not-allowed; // Equivalent to "disabled" attribute
+}*/

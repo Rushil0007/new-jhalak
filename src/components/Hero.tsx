@@ -1,19 +1,25 @@
 import React from "react";
 import "./Hero.css";
 
+
 const Hero = () => {
   return (
     <>
-      <div className=" flex-col justify-center content-center h-96 bg-slate-400 border-2 border-red-700">
-        <p className=" flex border-2 border-yellow-300 items-center w-4/12">
-          bg-image here
-        </p>
+      <div className="hero-container">
+        <div className="hero-image"></div>
+        <div className="hero-text">JHALAK</div>
+        <h2 className="hero-h2">Welcome To Our Website</h2>
+        
       </div>
-      <div className=" flex justify-center items-center">
+      <div className="hero-button-container"></div>
+  
+
+
+         
         {/* <button type="submit" className="submit-button" disabled>
           Find Your House
         </button> */}
-      </div>
+      {/* </div> */}
     </>
   );
 };
